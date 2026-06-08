@@ -1,0 +1,27 @@
+# Local directory for data, caching, and downloaded plugins/modules
+.terraform/
+
+# Local log files
+crash.log
+crash.*.log
+
+# Owner and write locks
+*.tfstate.lock.info
+
+# Local state and state history files
+*.tfstate
+*.tfstate.backup
+
+# Local configuration overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local secret variables (Ignore all variable files by default except explicit files)
+*.tfvars
+*.tfvars.json
+
+# Local CLI configuration file
+.terraformrc
+terraform.rc
